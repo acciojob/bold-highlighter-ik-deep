@@ -1,12 +1,17 @@
 function highlight() {
-    //Write your code here
-
+var elems = document.getElementsByTagName('strong');
+  var index = 0, length = elems.length;
+    for ( ; index < length; index++) {
+        elems[index].style.color ="green";
+    } 
 
 }
 
-
 function return_normal() {
-    //Write your code here
-
+var elems = document.getElementsByTagName('strong');
+  var index = 0, length = elems.length;
+    for ( ; index < length; index++) {
+        elems[index].style.color ="black";
+    } 
     
 }
